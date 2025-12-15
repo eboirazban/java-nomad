@@ -49,10 +49,10 @@ public class Main extends PApplet {
         rotate(angle);
         stroke(r*r);
         strokeWeight(10);
-        line(-r/2f, -r/2f, r/2f, r/2f);
-        line(-r/2f, r/2f, r/2f, -r/2f);
-        line(-r, 0, r, 0);
-        line(0, -r, 0, r);
+        line(-75,0,75,0);
+        line(0, -75, 0, 75);
+        line(-45, -45, 45, 45);
+        line(-45, 45, 45, -45);
         popMatrix();
 
     }
