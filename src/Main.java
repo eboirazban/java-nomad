@@ -2,7 +2,6 @@ import processing.core.PApplet;
 
 public class Main extends PApplet {
 
-    /// Полями Глобальными переменными
     float[] r = new float[10];
     float[] x = new float[10];
     float[] y = new float[10];

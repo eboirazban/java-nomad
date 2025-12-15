@@ -1,9 +1,6 @@
 import processing.core.PApplet;
 
 public class Main1 extends PApplet {
-    int tileSize = 50;
-    int hoverCol = -1;
-    int hoverRow = -1;
 
 
     public static void main(String[] args) {
@@ -23,7 +20,6 @@ public class Main1 extends PApplet {
     public void draw() {
 
 
-        // Рисуем шахматную доску
         for (int row = 0; row < 8; row++) {
             for (int col = 0; col < 8; col++) {
                 // Определяем цвет клетки
@@ -32,9 +28,6 @@ public class Main1 extends PApplet {
                 } else {
                     fill(0);    // Черный
                 }
-
-
-                // Рисуем квадрат
                 rect(col * 50, row * 50, 50, 50);
             }
         }
